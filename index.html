@@ -14,7 +14,7 @@ layout: default
 <h2>Blog posts</h2>
 {% for post in site.posts limit:3 %}
   <article>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
     <time datetime="{{ post.date }}">Published {{ post.date | date: "%F" }}</time> |
     <time datetime="{{ post.date }}">Last edited {{ post.date | date: "%F" }}</time>
     <p>{{ post.description }}</p>
