@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "A keyboard practicing website for everyone"
-date:   2019-08-28 13:30:22 +0200
+title: "A keyboard practicing website for everyone"
+date: 2019-08-28 13:30:22 +0200
 categories: update
 ---
 [Typing in the dark](https://typinginthedark.net/) starts with the need for a **free and accessible keyboard practicing tool**. Many of the existing solutions out there, are either too expensive, too boring to use, not accessible, or a combination of the three.

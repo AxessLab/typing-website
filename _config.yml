@@ -7,10 +7,11 @@
 title: Typing in the dark
 description: The accessible open source keyboard practicing tool
 baseurl: "/typing-website" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Build settings
-theme: minima
+show_downloads: false
+
+# Build sezttings
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
