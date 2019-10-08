@@ -6,8 +6,8 @@ logo: logo.png
 email: hello@axesslab.com
 
 menu:
-- {name: About, link: '/typing-website/about/'}
-- {name: Blog, link: '/typing-website/blog/'}
+- {name: About, link: '/about/'}
+- {name: Blog, link: '/blog/'}
 
 
 #-------------------------------
