@@ -7,7 +7,6 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "bundler"
 gem "jekyll", "~> 4.0.0"
 #gem "alembic-jekyll-theme", git: "https://github.com/daviddarnes/alembic.git"
 gem "jekyll-sitemap"

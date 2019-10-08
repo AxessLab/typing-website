@@ -76,7 +76,6 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  bundler
   jekyll (~> 4.0.0)
   jekyll-feed (~> 0.12)
   jekyll-sitemap

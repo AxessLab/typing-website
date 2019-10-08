@@ -4,7 +4,6 @@ title:  A keyboard practicing website for everyone
 date:   2019-08-28 13:30:22 +0200
 image:  keyboard.jpg
 author: Emilia Michanek
-tags:   Screen readers
 ---
 ![post-thumb]({{site.baseurl}}/assets/images/blog/keyboard.jpg){:class="img-fluid rounded float-left mr-5 mb-4"}
 
