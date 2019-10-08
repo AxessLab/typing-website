@@ -1,0 +1,40 @@
+#-------------------------------
+# General Site Settings
+
+title: Typing in the dark
+logo: logo.png
+email: hello@axesslab.com
+
+menu:
+- {name: About, link: '/about/'}
+- {name: Blog, link: '/blog/'}
+
+
+#-------------------------------
+# Google Analytics Section
+google-analytics: UA-99998963-2
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Typing in the dark
+  link: https://github.com/AxessLab/typing
+  link-name: View on Github
+
+#-------------------------------
+# About Section
+
+blurb:
+  Typing in the dark is a keyboard practicing tool aimed to help people learn to type without needing to see the keyboard, or the screen. It is primarily based on audio feedback, and features multiple different lessons to get started. 
+
+blurb-btn-link: '/about'
+blurb-btn-name: know more
+
+
+#-------------------------------
+# Contact Section
+
+contact-title: Contact Info
+contact-email: hello@axesslab.com
