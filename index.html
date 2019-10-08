@@ -1,22 +1,11 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="assets/css/base.css">
 
-<h1>The accessible open source keyboard practicing tool</h1>
+{% include hero-section.html %}
 
-<p><strong>Note:</strong> This project's first prototype is currently <strong>in development</strong>. A link to try it out on a live environment will be added in the near future.</p>
+{% include about-section.html %}
 
-<p>Typing in the dark (<a href="https://demo.typinginthedark.net/">demo</a>) is a <strong>keyboard practicing tool</strong> aimed to help people learn to type without needing to see the keyboard, or the screen. It is primarily based on <strong>audio feedback</strong>, and features multiple different lessons to get started.</p>
+{% include video-section.html %}
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/KB_Sweden.svg/1000px-KB_Sweden.svg.png" alt="Keyboard layout, illustration.">
-
-<h2>Blog posts</h2>
-{% for post in site.posts limit:3 %}
-  <article>
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <time datetime="{{ post.date }}">Published {{ post.date | date: "%F" }}</time> |
-    <time datetime="{{ post.date }}">Last edited {{ post.date | date: "%F" }}</time>
-    <p>{{ post.description }}</p>
-  </article>
-{% endfor %}
+{% include blog-section.html %}

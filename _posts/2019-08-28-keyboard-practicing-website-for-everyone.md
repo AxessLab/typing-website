@@ -1,10 +1,14 @@
 ---
 layout: post
-title: "A keyboard practicing website for everyone"
-date: 2019-08-28 13:30:22 +0200
-categories: update
+title:  A keyboard practicing website for everyone
+date:   2019-08-28 13:30:22 +0200
+image:  keyboard.jpg
+author: Emilia Michanek
+tags:   Screen readers
 ---
-[Typing in the dark](https://typinginthedark.net/) starts with the need for a **free and accessible keyboard practicing tool**. Many of the existing solutions out there, are either too expensive, too boring to use, not accessible, or a combination of the three.
+![post-thumb]({{site.baseurl}}/assets/images/blog/keyboard.jpg){:class="img-fluid rounded float-left mr-5 mb-4"}
+
+[Typing in the dark](https://typinginthedark.net/) starts with the need for a free and accessible keyboard practicing tool. Many of the existing solutions out there, are either too expensive, too boring to use, not accessible, or a combination of the three.
 
 The lack of a good alternative is making it difficult. Especially for visually inpaired kids who are just starting out and learning how to navigate the keyboard.
 
