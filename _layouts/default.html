@@ -1,43 +1,27 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+<html lang="en">
 
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-    <meta charset="UTF-8">
+{% include head.html %}
 
-{% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  </head>
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
+<body>
 
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ site.title }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-    </header>
+  {% if site.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+  
+  {% include header.html %}
 
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+  {{ content }}
 
-      <footer class="site-footer">
-        <p>The tool is maintained/developed by <a href="https://axesslab.com/">Axess Lab</a> and <a href="https://ictenablers.com/">Temkeen</a>, with expert help from <a href="https://www.srf.nu/">The Swedish Association of the Visually Impaired (SRF)</a>. The project has received funding from the Swedish innovation agency <a href="https://www.vinnova.se/en/">Vinnova</a>.</p>
+  {% include contact-section.html %}
+  
+  {% include footer.html %}
 
-        <p class="site-footer-owner">You can find the code on GitHub: <a href="https://github.com/AxessLab/typing">Typing in the dark</a></p>
-      </footer>
-    </main>
-  </body>
+  <!-- jQuery -->
+  <script src="{{ site.baseurl }}/assets/plugins/jQuery/jquery.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="{{ site.baseurl }}/assets/js/script.js"></script>
+</body>
+
 </html>

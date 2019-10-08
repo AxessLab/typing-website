@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<!-- page title -->
+<section class="page-title-alt bg-primary position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-white font-tertiary">{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- about -->
+<section class="section pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        {{ content }}
+      </div>
+      <div class="col-md-4 text-center drag-lg-top">
+        <div class="shadow-down mb-4">
+          <img src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.author }}" class="img-fluid w-100 rounded-lg border-thick border-white">
+        </div>
+        <h4>{{ page.author }}</h4>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about -->

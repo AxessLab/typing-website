@@ -8,7 +8,8 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 4.0.0"
-gem "jekyll-theme-cayman", git: "https://github.com/pages-themes/cayman.git"
+#gem "alembic-jekyll-theme", git: "https://github.com/daviddarnes/alembic.git"
+gem "jekyll-sitemap"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

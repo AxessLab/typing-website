@@ -1,0 +1,48 @@
+/* skills */
+.progress-wrapper {
+  height: 130px;
+  overflow: hidden;
+}
+
+.active-bg-primary {
+  transition: .3s ease;
+  background: $primary-color;
+
+  * {
+    color: $white;
+  }
+}
+
+.hover-shadow{
+  transition: .2s ease;
+  &:hover{
+    box-shadow: 0px 18px 40px 8px rgba(224, 241, 255, 0.54) !important;
+  }
+}
+
+
+/* footer */
+.footer-section {
+  padding-top: 200px;
+}
+
+.section-on-footer {
+  margin-bottom: -250px;
+}
+
+.shadow-down {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    box-shadow: 0px 0px 80.75px 14.25px rgba(224, 241, 255, 0.34);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+}
+
+/* /footer */
