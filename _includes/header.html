@@ -17,7 +17,12 @@
         </li>
         {% for link in site.data.settings.menu %}
           <li class="nav-item {{ class }}">
-            <a class="nav-link" href="{{ link.link | relative_url }}">{{ link.name }}</a>
+            {% if link.link contains "://" %}
+              {% assign url = link.link %}
+            {% else %}
+              {% assign url = link.link | relative_url %}
+            {% endif %}
+            <a class="nav-link" href="{{ url }}">{{ link.name }}</a>
           </li>
         {% endfor %}
       </ul>
