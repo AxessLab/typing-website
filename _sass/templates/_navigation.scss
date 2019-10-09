@@ -12,6 +12,10 @@
     padding: 20px;
     background: $primary-color;
   }
+
+  & .nav-logo:focus {
+    border: 2px solid $white;
+  }
 }
 
 .navbar{
@@ -20,6 +24,10 @@
       font-family: $tertiary-font;
       text-transform: uppercase;
       padding: 15px;
+
+      &:focus {
+        border: 2px solid $white;
+      }
     }
     &.active{
       font-weight: bold;

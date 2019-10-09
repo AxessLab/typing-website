@@ -10,15 +10,20 @@
   {% endif %}
   
   {% include header.html %}
+  <main>
+    {{ content }}
 
-  {{ content }}
+    {% include contact-section.html %}
 
-  {% include contact-section.html %}
+  </main>
   
   {% include footer.html %}
 
   <!-- jQuery -->
   <script src="{{ '/assets/plugins/jQuery/jquery.min.js' | relative_url }}"></script>
+  
+  <!-- Bootstrap JS -->
+  <script src="{{ '/assets/plugins/bootstrap/bootstrap.min.js' | relative_url }}"></script>
 
   <!-- Main Script -->
   <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
