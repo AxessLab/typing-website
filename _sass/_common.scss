@@ -273,3 +273,16 @@ textarea.form-control{
   font-size: 1.5em;
   margin-top: -3.5em;
 }
+
+.footer-link {
+  color: $white;
+
+  &:hover {
+    color: $white;
+    text-decoration: underline;
+  }
+
+  &:focus {
+    border: 2px solid $border-color;
+  }
+}

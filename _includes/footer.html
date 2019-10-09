@@ -1,17 +1,19 @@
 <!-- footer -->
-<footer class="bg-dark footer-section">
+<footer class="bg-dark">
   <div class="section">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
           <p class="text-light">Email</p>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.email }}</p>
+          <p class="text-white paragraph-lg font-secondary">
+              <a class="footer-link" href="mailto:{{ site.data.settings.email }}">{{ site.data.settings.email }}</a>
+          </p>
         </div>
       </div>
     </div>
   </div>
   <div class="border-top text-center border-dark py-5">
-    <p class="mb-0 text-light">♡ Copying is an act of love. Please copy. Made by <a href="https://axesslab.com/">Axess Lab</a> <script>
+    <p class="mb-0 text-light">♡ Copying is an act of love. Please copy. Made by <a class="footer-link" href="https://axesslab.com/">Axess Lab</a> <script>
       var CurrentYear = new Date().getFullYear()
       document.write(CurrentYear)
     </script></p>
