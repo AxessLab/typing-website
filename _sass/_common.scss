@@ -34,6 +34,10 @@ img {
   border: 0;
 }
 
+a {
+  color: $link-color;
+}
+
 a:hover,
 a:focus {
   text-decoration: underline;

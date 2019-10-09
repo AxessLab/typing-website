@@ -10,10 +10,12 @@
   {% endif %}
   
   {% include header.html %}
+  <main>
+    {{ content }}
 
-  {{ content }}
+    {% include contact-section.html %}
 
-  {% include contact-section.html %}
+  </main>
   
   {% include footer.html %}
 
