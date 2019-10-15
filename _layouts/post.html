@@ -16,7 +16,7 @@ layout: default
 <section class="mt-3">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-8 offset-lg-2">
         <p class="font-secondary">Published on {{ page.date | date: '%b %d, %Y' }} by <span class="text-primary">{{ page.author }}</p>
         <div class="content">
           {{ content }}
@@ -38,8 +38,8 @@ layout: default
         <article class="card shadow">
           <img class="rounded card-img-top" src="{{ "/assets/images/blog/" | relative_url }}{{ post.image }}" alt="{{ post.title }}">
           <div class="card-body">
-            <h4 class="card-title"><a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </h4>
+            <p class="card-title"><a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </p>
             <a href="{{ post.url | relative_url }}" class="btn btn-xs btn-primary">Read More</a>
           </div>
         </article>

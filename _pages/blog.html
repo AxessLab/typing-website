@@ -6,14 +6,13 @@ permalink: /blog/
 <!-- blog -->
 <section class="section">
   <div class="container">
-    <div class="row">
+    <div class="row cards">
       {% for post in site.posts %}
       <div class="col-lg-4 col-sm-6 mb-4">
-        <article class="card shadow">
+        <article class="card-lg shadow">
           <img class="rounded card-img-top" src="{{ site.baseurl }}/assets/images/blog/{{ post.image }}" alt="{{ post.title }}">
           <div class="card-body">
             <p class="card-title"><a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title | escape }}</p>
-            <p class="cars-text">{{ post.content | strip_html | truncate: 127 }}</p>
             <a href="{{ post.url | relative_url }}" class="btn btn-xs btn-primary">Read More</a>
           </div>
         </article>

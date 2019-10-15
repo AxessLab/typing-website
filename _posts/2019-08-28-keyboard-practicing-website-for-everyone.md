@@ -5,7 +5,7 @@ date:   2019-08-28 13:30:22 +0200
 image:  keyboard.jpg
 author: Emilia Michanek
 ---
-![post-thumb]({{site.baseurl}}/assets/images/blog/keyboard.jpg){:class="img-fluid rounded float-left mr-5 mb-4"}
+![post-thumb]({{site.baseurl}}/assets/images/blog/keyboard.jpg){:class="img-fluid w-50 rounded float-right ml-5 mb-4"}
 
 [Typing in the dark](https://typinginthedark.net/) starts with the need for a free and accessible keyboard practicing tool. Many of the existing solutions out there, are either too expensive, too boring to use, not accessible, or a combination of the three.
 
