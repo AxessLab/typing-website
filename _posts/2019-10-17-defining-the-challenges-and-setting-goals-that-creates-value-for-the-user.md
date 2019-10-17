@@ -21,7 +21,7 @@ Focus for this project should therefore be to get the children excited by intera
 * How can we create an inspiring product that motivates the user to learn the keyboard while having fun?
 * How can we make the first interaction with the keyboard intriguing instead of a feeling of resistance?
 
-![Different typing tutor services print screen.][image1]{:class="img-fluid w-100 rounded float-left mr-5 mb-4"}
+![Multiple postits on a wall with text on them saying Independence, Motivation, Inclusion etc. A hand taking down one of them saying Goals.][image1]{:class="img-fluid w-100 rounded float-left mr-5 mb-4"}
 
 ## Goal
 The goal with this project is to create a prototype and concept that is a first step to make something that can be developed further. We hope our insights and user centered work can inspire others to continue working with this important tool that help children with visual impairments type on a keyboard. That is why the project is open source, free and anyone can contribute to the project. We will also share all the work and knowledge and insights we identify within this project.
