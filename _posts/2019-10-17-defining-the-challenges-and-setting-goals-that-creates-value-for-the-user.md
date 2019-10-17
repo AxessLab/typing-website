@@ -6,7 +6,7 @@ image:  postits.jpg
 author: Sofie Hansson
 ---
 
-In the previous post we shared the research that has been done in the beginning of the project, länk. In this post we’ll talk more about what the main problems are to learn how to type on a keyboard and what questions we’ll ask to try to solve these identified challenges for the users in our primary target group of children with a visual impairment between the age 7-14.
+In the [previous post][previous_post] we shared the research that has been done in the beginning of the project. In this post we’ll talk more about what the main problems are to learn how to type on a keyboard and what questions we’ll ask to try to solve these identified challenges for the users in our primary target group of children with a visual impairment between the age 7-14.
 
 ## Independence
 Children and youths that has a visual impairment dependent on the help center (syncentralen) to get the technical support to learn how to type on a keyboard. The ones that exist also cost money and therefore are dependent on the government help to finance it. The technical choices may therefore be different to the needs of the children and different from their peers. Sometimes they are out to date and uninspiring, when learning progress faster when it’s fun. There is no product today that is modern, fun, has enough sound feedback and accessible for the swedish keyboard layout and for people with different abilities.
@@ -38,3 +38,4 @@ With this free open source solution that will be available online where you can 
 
 
 [image1]: {{site.baseurl}}/assets/images/blog/postits.jpg
+[previous_post]: {{site.baseurl}}/2019/10/14/research-and-insights-about-learning-how-to-type-on-a-keyboard/
