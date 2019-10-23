@@ -1,12 +1,38 @@
 <!-- about -->
 <section class="section" id="about">
+  <span class="circle"></span>
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <p class="font-secondary paragraph-lg text-dark">{{ site.data.settings.blurb }}</p>
-        <a href="{{ site.data.settings.blurb-btn-link  | prepend: site.baseurl }}" class="btn btn-secondary">{{ site.data.settings.blurb-btn-name }}</a>
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>{{ site.data.settings.blurbs[0].title}}</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <p class="font-secondary paragraph text-dark">{{ site.data.settings.blurbs[0].text }}</p>
+      </div>
+    </div>
+    {% include call-out-section.html %}
+    <div class="row mt-5">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>{{ site.data.settings.blurbs[1].title }}</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <p class="font-secondary paragraph text-dark">{{ site.data.settings.blurbs[1].text }}</p>
+      </div>
+    </div>
+    <div class="row steps-of-learning">
+      <div class="col-lg-8 bg-gray p-4 mx-auto">
+        <h3>Steps of learning</h3>
+        <ol>
+          {% for item in site.data.settings.steps-of-learning %}
+          <li>
+            {{ item.title }}
+            <p>{{ item.text }}</p>
+          </li>
+          {% endfor %}
+        </ol>
       </div>
     </div>
   </div>
 </section>
 <!-- /about -->
+

@@ -13,6 +13,29 @@
   }
 }
 
+.steps-of-learning {
+  ol {
+    list-style-type: decimal;
+    color: $secondary-color;
+    font-size: 1.5em;
+    font-weight: 600;
+
+    li > p {
+      color: $text-color;
+      font-weight: 600;
+    }
+  }
+}
+
+.circle {
+  width: 161px;
+  height: 161px;
+  border-radius: 50%;
+  background-color: #B5B2C3;
+  display: inline-block;
+  opacity: 0.68;
+}
+
 .hover-shadow{
   transition: .2s ease;
   &:hover{

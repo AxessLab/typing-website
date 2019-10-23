@@ -35,6 +35,20 @@ blockquote > p {
     display: inherit;
     line-height: 1.5;
   }
+
+  ul {
+    li {
+      &::before {
+        content: "\2022";
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 1.25em;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+    }
+  }
 }
 
 .card-title {
@@ -42,16 +56,3 @@ blockquote > p {
   font-weight: 600;
 }
 
-ul {
-  li {
-    &::before {
-      content: "\2022";
-      color: $primary-color;
-      font-weight: bold;
-      font-size: 1.25em;
-      display: inline-block;
-      width: 1em; 
-      margin-left: -1em;
-    }
-  }
-}

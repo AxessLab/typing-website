@@ -47,7 +47,7 @@ a,
 select {
   cursor: pointer;
   transition: .2s ease;
-  
+
   &:focus {
     outline: 0;
     border: 2px solid black;
@@ -58,7 +58,7 @@ select {
 button {
   cursor: pointer;
   transition: .2s ease;
-  
+
   &:focus {
     background-color: #ffffff;
     color: $primary-color;
@@ -110,7 +110,7 @@ a.text-dark{
 }
 
 .bg-primary {
-  background: $primary-color !important;
+  background: transparent linear-gradient(105deg, $bg-color-1 0%, $bg-color-2 59%, $bg-color-3 100%) 0% 0% no-repeat padding-box !important;
 }
 
 .bg-gray{
@@ -250,18 +250,18 @@ textarea.form-control{
 
 
 /* video */
-.embed-container { 
-  position: relative; 
-  padding-bottom: 56.25%; 
-  height: 0; 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
   overflow: hidden;
-  max-width: 100%; 
+  max-width: 100%;
 
   & iframe, object, embed {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    width: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
   }
 }

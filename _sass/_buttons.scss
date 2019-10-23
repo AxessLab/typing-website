@@ -17,6 +17,10 @@
     border: 2px solid $primary-color;
   }
 
+  &:hover {
+    cursor: pointer;
+  }
+
   &:active {
     box-shadow: none;
   }
