@@ -2,7 +2,7 @@
 layout: post
 title:  Concept ideas, wireframes & user testing
 date:   2019-10-24 09:30:22 +0200
-image:  blog4/image23.png
+image:  blog4/image23.jpg
 author: Sofie Hansson
 ---
 
@@ -209,6 +209,6 @@ We asked if he had an idea of what would be a fun challenges after this level an
 [image8]: {{site.baseurl}}/assets/images/blog/blog4/image8.png
 [image9]: {{site.baseurl}}/assets/images/blog/blog4/image9.png
 [image22]: {{site.baseurl}}/assets/images/blog/blog4/image22.jpg
-[image23]: {{site.baseurl}}/assets/images/blog/blog4/image23.png
+[image23]: {{site.baseurl}}/assets/images/blog/blog4/image23.jpg
 
 
