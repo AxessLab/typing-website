@@ -41,16 +41,16 @@
   color: $white;
 
   &:active {
-    background: lighten($color: $primary-color, $amount: 10) !important;
+    background: lighten($color: $primary-color, $amount: 9) !important;
   }
 
   &:hover {
-    background: lighten($color: $primary-color, $amount: 10);
+    background: lighten($color: $primary-color, $amount: 9);
   }
 
   &.focus,
   &.active {
-    background: lighten($color: $primary-color, $amount: 10) !important;
+    background: lighten($color: $primary-color, $amount: 9) !important;
     box-shadow: none !important;
   }
 }
@@ -60,16 +60,16 @@
   color: $white;
 
   &:active {
-    background: lighten($color: $secondary-color, $amount: 10) !important;
+    background: lighten($color: $secondary-color, $amount: 9) !important;
   }
 
   &:hover {
-    background: lighten($color: $secondary-color, $amount: 10);
+    background: lighten($color: $secondary-color, $amount: 9);
   }
 
   &.focus,
   &.active {
-    background: lighten($color: $secondary-color, $amount: 10) !important;
+    background: lighten($color: $secondary-color, $amount: 9) !important;
     box-shadow: none !important;
   }
 }

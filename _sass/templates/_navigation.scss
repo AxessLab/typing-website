@@ -1,16 +1,23 @@
 .navigation{
-  padding: 40px 130px;
+  padding: 0px 130px;
   transition: .3s ease;
   &.nav-bg {
     background-color: $bg-color-2;
-    padding: 15px 100px;
+    padding: 0px 130px;
     @include desktop {
-      padding: 15px 20px;
+      padding: 10px;
     }
   }
   @include desktop {
-    padding: 20px;
+    padding: 10px;
     background: $bg-color-2;
+  }
+
+  & .nav-image {
+    height: 70px;
+    @include desktop {
+      height: 50px;
+    }
   }
 
   & .nav-logo:focus {
