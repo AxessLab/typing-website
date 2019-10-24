@@ -3,18 +3,18 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Blogs</h2>
+        <h2 class="section-title">Blog posts about the project</h2>
       </div>
-      {% for post in site.posts offset:0 limit:3 %}
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <article class="card shadow">
-          <img class="rounded card-img-top" src="{{ '/assets/images/blog/' | relative_url }}{{ post.image }}" alt="{{ post.title }}">
-          <div class="card-body">
-            <h3 class="card-title"><a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </h3>
-            <a href="{{ post.url | relative_url }}" class="btn btn-xs btn-primary">Read More</a>
-          </div>
-        </article>
+    </div>
+    <div class="card-deck">
+    {% for post in site.posts offset:0 limit:3 %}
+      <div class="card shadow">
+        <img class="rounded card-img-top" src="{{ '/assets/images/blog/' | relative_url }}{{ post.image }}" alt="{{ post.title }}">
+        <div class="card-body">
+          <h3 class="card-title"><a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+          <a href="{{ post.url | relative_url }}" class="btn btn-xs btn-primary">Read More</a>
+        </div>
       </div>
       {% endfor %}
     </div>

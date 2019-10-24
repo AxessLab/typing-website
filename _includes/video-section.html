@@ -1,11 +1,19 @@
 <!-- video -->
 <section class="section">
-    <div class="container">
-      <div class="row">
-          <div class="embed-responsive embed-responsive-16by9">
-              <iframe title="Youtube video of project" class="embed-responsive-item" src="https://www.youtube.com/embed/ES0atbJsW20?rel=0" allowfullscreen></iframe>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mx-auto text-center">
+        <h2>{{ site.data.settings.video-header }}</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe title="Youtube video of project" class="embed-responsive-item" src="https://www.youtube.com/embed/ES0atbJsW20?rel=0" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
-  </section>
-  <!-- /video -->
+    <div class="row">
+      <div class="col-12 pt-5">
+        {% include call-out-section.html %}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /video -->

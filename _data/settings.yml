@@ -3,7 +3,7 @@
 
 title: Typing in the dark
 logo: logo.png
-email: hello@axesslab.com
+email: typing@axesslab.com
 
 menu:
 - {name: About, link: '/about/'}
@@ -20,21 +20,67 @@ google-analytics: UA-99998963-2
 
 hero:
   hero-title: Typing in the dark
-  link: https://github.com/AxessLab/typing
-  link-name: View on Github
+  preamble: A online free and accessible keyboard typing game for beginners
+  link: https://typing.herokuapp.com
+  link-name: Try demo game
+  link-secondary: https://github.com/AxessLab/typing
+  link-secondary-name: View on Github
 
 #-------------------------------
 # About Section
 
-blurb:
-  Typing in the dark is a keyboard practicing tool aimed to help people learn to type without needing to see the keyboard, or the screen. It is primarily based on audio feedback, and features multiple different lessons to get started. 
+blurbs:
+- {
+    title: A keyboard practice game,
+    text: Typing in the dark is a keyboard practicing game aimed to help people learn to type without
+    needing to see the keyboard or the screen. It is primarily based on audio feedback and features multiple
+    different challenges to get started. It demo is in an early version and a prototype in a concept phase and
+    not a finished product because we want to get feedback from the users and the community to help contributing
+    to the product. The demo game is in Swedish because the project is based in Sweden and has focused on swedish
+    children at the age 7-14 with a visual impairment as a primary target group. We do however have all the information
+    at the site and on GitHub in English so that people all over the world can take part of the information and contribute
+    to the project.
+  }
+- {
+    title: Concept - Gamification and steps to learn,
+    text: The key insight is that it is boring to learn how to type on a keyboard and a resistance to integrating with
+    it because of just pressing buttons. Learning while having fun is the key to progressing and learning the keyboard
+    fast and become more independent in the digital world. That’s why our concept is a ninja game built on the insights
+    of the user research and market analysis. We have focused on beginners because that’s were the biggest challenges
+    is today.
+  }
+- {
+    title: Open source & contributions,
+    text: '
+      <p>This project is open source, this means that all of our code is free to copy and contributing to the project.
+      We would like to get as many contributions as possible to the project. So if you are a developer look at our GitHub
+      page were you’ll find more information.</p>
+      <p>If you just have ideas, comments, questions, feedback or other contributions
+      on the prototype please share these with us. They don’t have to be technical they can be of any kind. Email us at
+      <a href="mailto:typing@axesslab.com">typing@axesslab.com</a> and mark the email with typing in the dark.</p>
+      <p>Thank you <3 /The typing in the dark team</p>'
+  }
 
-blurb-btn-link: '/about'
-blurb-btn-name: know more
-
+steps-of-learning:
+- {title: Interaction phase, text: Encourages the user interact with the keyboard without right or wrong}
+- {title: Placement of the fingers, text: Learning where the keys are is the most important step to become independent on the keyboard}
+- {title: Words and sentences, text: }
+- {title: Speed, text: }
 
 #-------------------------------
+# Callouts
+
+call-outs:
+- {name: Try demo game, link: 'https://typing.herokuapp.com'}
+- {name: View on Github, link: 'https://github.com/AxessLab/typing'}
+
+#-------------------------------
+# Video Section
+
+video-header: Video of the prototype and concept
+
+  #-------------------------------
 # Contact Section
 
 contact-title: Contact Info
-contact-email: hello@axesslab.com
+contact-email: typing@axesslab.com

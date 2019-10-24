@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand font-tertiary h3 nav-logo" href="{{ '/' | relative_url }}">
       {% if site.data.settings.logo %}
-        <img src="{{ '/assets/images/' | relative_url }}{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
+        <img src="{{ '/assets/images/' | relative_url }}{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}" class="nav-image">
       {% endif %}
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"

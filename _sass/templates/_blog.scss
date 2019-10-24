@@ -16,7 +16,7 @@ blockquote > p {
   display: inline-block;
   padding: 10px 20px;
   background: $gray;
-  border-left: 2px solid $primary-color;
+  border-left: 3px solid $secondary-color;
   font-style: italic;
   font-size: 22px;
   line-height: inherit;
@@ -35,6 +35,33 @@ blockquote > p {
     display: inherit;
     line-height: 1.5;
   }
+
+  ul {
+    li {
+      &::before {
+        content: "\2022";
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 1.25em;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+    }
+  }
+  ol {
+    li {
+      list-style-type: decimal;
+      &::before {
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 1.25em;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+    }
+  }
 }
 
 .card-title {
@@ -42,16 +69,3 @@ blockquote > p {
   font-weight: 600;
 }
 
-ul {
-  li {
-    &::before {
-      content: "\2022";
-      color: $primary-color;
-      font-weight: bold;
-      font-size: 1.25em;
-      display: inline-block;
-      width: 1em; 
-      margin-left: -1em;
-    }
-  }
-}
