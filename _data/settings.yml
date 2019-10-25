@@ -21,7 +21,7 @@ google-analytics: UA-99998963-2
 hero:
   hero-title: Typing in the dark
   preamble: A online free and accessible keyboard typing game for beginners
-  link: https://typing.herokuapp.com
+  link: https://typing-prod.herokuapp.com
   link-name: Try demo game
   link-secondary: https://github.com/AxessLab/typing
   link-secondary-name: View on Github
@@ -71,7 +71,7 @@ steps-of-learning:
 # Callouts
 
 call-outs:
-- {name: Try demo game, link: 'https://typing.herokuapp.com'}
+- {name: Try demo game, link: 'https://typing-prod.herokuapp.com'}
 - {name: View on Github, link: 'https://github.com/AxessLab/typing'}
 
 #-------------------------------
