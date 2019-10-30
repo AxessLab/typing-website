@@ -24,14 +24,7 @@ We gathered the whole project team to have a design studio workshop, everyone jo
 
 We did three different exercises in pairs and built on each other's ideas for typing in the dark. At the end we chose the idea that most people felt that we wanted to move forward with.
 
-<div class="row">
-  <div class="col-md-6 col-xs-12">
-    <img src="{{site.baseurl}}/assets/images/blog/blog4/image3.jpg" alt="Emilia skyping with Daniel" class="img-fluid rounded w-100">
-  </div>
-  <div class="col-md-6 col-xs-12">
-    <img src="{{site.baseurl}}/assets/images/blog/blog4/image4.jpg" alt="Joakim skyping with Claudio." class="img-fluid rounded w-100">
-  </div>
-</div>
+![Joakim skyping with Claudio.][image4]{:class="img-fluid w-100 rounded float-left mr-5 mb-4"}
 
 It was a ninja game that had a storytelling and a level based game. First you chose a ninja you train the character at the gym like Pokemon go. After that you go into a dark cave and there you get a challenge if you do the challenge well you can get different grades of karate belts from red to black. So this is a hypothesis we wanted to move forward with the gamification in combination with a logical way to learn.
 
@@ -205,10 +198,9 @@ We asked if he had an idea of what would be a fun challenges after this level an
 [adobe-xd]: https://www.adobe.com/products/xd.html
 [look-to-learn]: https://www.tobiidynavox.com/software/partner-software/look-to-learn/
 [previous_post]: {{site.baseurl}}/2019/10/17/defining-the-challenges-and-setting-goals-that-creates-value-for-the-user/
+[image4]: {{site.baseurl}}/assets/images/blog/blog4/image4.jpg
 [image7]: {{site.baseurl}}/assets/images/blog/blog4/image7.png
 [image8]: {{site.baseurl}}/assets/images/blog/blog4/image8.png
 [image9]: {{site.baseurl}}/assets/images/blog/blog4/image9.png
 [image22]: {{site.baseurl}}/assets/images/blog/blog4/image22.jpg
 [image23]: {{site.baseurl}}/assets/images/blog/blog4/image23.jpg
-
-
