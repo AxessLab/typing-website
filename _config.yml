@@ -6,8 +6,8 @@
 
 title: Typing in the dark
 description: The accessible open source keyboard practicing tool
-baseurl: "/typing-website" # the subpath of your site, e.g. /blog
-url: "https://axesslab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.typinginthedark.net" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
