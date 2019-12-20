@@ -32,14 +32,14 @@ hero:
 blurbs:
 - {
     title: A keyboard practice game,
-    text: Typing in the dark is a keyboard practicing game aimed to help people learn to type without
-    needing to see the keyboard or the screen. It is primarily based on audio feedback and features multiple
-    different challenges to get started. It demo is in an early version and a prototype in a concept phase and
-    not a finished product because we want to get feedback from the users and the community to help contributing
-    to the product. The demo game is in Swedish because the project is based in Sweden and has focused on swedish
-    children at the age 7-14 with a visual impairment as a primary target group. We do however have all the information
-    at the site and on GitHub in English so that people all over the world can take part of the information and contribute
-    to the project.
+    text: '
+    <p>Typing in the dark is a keyboard practicing game aimed to help people learn to type without needing to see the
+    keyboard or the screen. The target group is children aged 7-14 with a visual impairment, it is primarily based on audio
+    feedback and multiple different challenges to get started.</p>
+    <p>The demo game is an early version and a prototype in a concept phase and not a finished product because we want to get
+    feedback from the users and the community to help contributing to the product. We have all the information at the site and
+    on GitHub in English so that people all over the world can take part of the information and contribute to the project. But,
+    the game is available in Swedish and English.</p>'
   }
 - {
     title: Concept - Gamification and steps to learn,

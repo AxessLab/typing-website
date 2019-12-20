@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Final concept, prototype, contributions and steps forward
+title:  Final concept, user testing, contributions and steps forward
 date:   2019-11-06 21:15:22 +0200
 image:  blog6/4.1.png
 author: Sofie Hansson
@@ -60,7 +60,43 @@ The character you choose will follow you in the challenges and get a visual repr
 
 These are the biggest changes in the prototype and concept this far. We will test this prototype with more children with a visual impairment to be able to know what can be improved.
 
-## Things we didn't have time to do
+## User testing
+Sofie and Claudio met with six children at a camp for kids with visual impairment in November 2019 to user test Typing in the dark. There were four girls in the age between 5 to 8 and two boys at the age of 10. Most of the younger kids had not been introduced to keyboards but the two older had just started to learn.
+
+<div class="row">
+  <div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/assets/images/blog/blog6/barngrupp1.JPG" alt="Claudio with child testing game." class="img-fluid rounded w-100">
+  </div>
+  <div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/assets/images/blog/blog6/barngrupp2.JPG" alt="Claudio with two children testing game." class="img-fluid rounded w-100">
+  </div>
+</div>
+
+Overall the concept with the gamification worked well, the kids reacted very positive to choosing character and especially the colors, it made them interested in the game. For the older kids they got the concept with the ninja well and it was easy for them to get started and succeed at the game. So for them it’s important to have more challenges that advance quickly as they were motivated to keep going. What could improve for the older kids is to have the text to speech at a slower pace, but in general they didn’t need assistance from people around like the younger kids did. A parent said that this is much better than the one we use now because that one is too childish and this would be a much better and more fun alternative.
+
+For the younger kids there were other challenges, they didn’t know what a ninja was but it didn’t affect them that much. What was a bigger challenge was at the challenge F & J, as it became clear that when you around 5-6 years old you don’t have as much motorical training with switching between right and left finger and maybe not have learned right and left yet. So for them it would be better to start with one hand, because they chose one hand to solve the F and J challenge. The biggest problem with this was that they kept losing the other letter, but we should consider that these children are younger than our target age at 7. For the younger children this sometimes created a frustration and they would need a confirmation more often than at the end of an exercise, some small message of encouragement.
+
+<div class="row">
+  <div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/assets/images/blog/blog6/barngrupp3.JPG" alt="Claudio with child testing game." class="img-fluid rounded w-100">
+  </div>
+  <div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/assets/images/blog/blog6/barngrupp4.JPG" alt="Claudio with child testing game." class="img-fluid rounded w-100">
+  </div>
+</div>
+
+### Key insights and improvement possibilities
+<ul>
+  <li>Gamification concept works well from choosing characters, training  to do challenges.</li>
+  <li>It was easier for the older kids and the advance faster than the younger kids. The training challenge however could be shorter at 30 seconds because it was a bit too long at the moment.</li>
+  <li>Sound effects and feedback worked well and positive effect when done with challenge. Text to speech speed could be slover for all the children and adding a “play instruction again” feature.</li>
+  <li>More encouraging feedback could be added for the users who are a bit slower at solving the challenges to keep them motivated and not frustrated. </li>
+  <li>With some younger users it was a challenge because it’s an online application and they lean more against the keyboard which made them enter some keys that opened up other windows or applications on the computer, this could be improved.</li>
+</ul>
+
+## Steps forward
+The steps moving forward is to create more challenges in the concept and to elaborate on the existing ones. Our other vision is to spread the project to the open-source community to get contributions to this important project that helps children with a visual impairment to learn how to type on a keyboard.
+
 In this project we had several ideas and thoughts that we wanted to do but because the limited time and resources in the project and that the goal was to create a prototype we didn’t have time to do these things:
 
 <ul>
@@ -72,43 +108,14 @@ In this project we had several ideas and thoughts that we wanted to do but becau
   <li>Our own recorded sound instead of text to speech to make it a better user experience</li>
 </ul>
 
-## User testing
-To be continued… the prototype will be tested with 10 children with a visual impairment.
-
-## Steps forward
-The steps moving forward is to create more challenges in the concept and to elaborate on the existing ones. We will also do more user testing to get more feedback on what can be improved in the existing solution.
-
-Our other vision is to spread the project to the open-source community to get contributions to this important project that helps children with a visual impairment to learn how to type on a keyboard.
-
 ## Contributions
 First of all, we want to say a huge thank you to the people whom we got to interview and do user testing with during this project, which gave us insights and ideas for the concept.
 
 Also thanks to free service [textamig.se](https://www.textamig.se/) that generated quick subtitles to our movie.
 
-We also want to give thanks and attributions to the free resources we have used in this project that helped our work and the results.
+We also want to give thanks and attributions to the free resources we have used in this project that helped our work and the results. You can find all our resource at our [Github repository](https://github.com/AxessLab/typing#contributions).
 
-### Sound resources
-<ul>
-  <li>30248__streety__sword7.flac
-https://freesound.org/people/Streety/sounds/30248/</li>
-  <li>482783__mattiagiovanetti__ninja-tune.wav
-https://freesound.org/people/MattiaGiovanetti/sounds/482783/</li>
-  <li>1437__lostchocolatelab__02sword03.aiff
-https://freesound.org/people/lostchocolatelab/sounds/1437/</li>
-  <li>131142__flameeagle__block
-https://freesound.org/people/FlameEagle/sounds/131142/</li>
-  <li>411462__thebuilder15__bubble-pop
-https://freesound.org/people/TheBuilder15/sounds/411462/</li>
-  <li>471147__worldmaxter__sword-slide
-https://freesound.org/people/Worldmaxter/sounds/471147/</li>
-</ul>
 
-### Vector graphics
-<ul>
-  <li>Free Ninja Vector
-https://www.vecteezy.com/vector-art/128934-free-ninja-vector</li>
-  <li>Free Ninjas Vector. https://www.vecteezy.com/vector-art/112781-free-ninjas-vector</li>
-</ul>
 
 [previous_post]: {{site.baseurl}}/2019/10/24/concept-ideas-wireframes-user-testing/
 [image1]: {{site.baseurl}}/assets/images/blog/blog6/4.1.png
@@ -120,7 +127,10 @@ https://www.vecteezy.com/vector-art/128934-free-ninja-vector</li>
 [image7]: {{site.baseurl}}/assets/images/blog/blog6/4.7.png
 [image8]: {{site.baseurl}}/assets/images/blog/blog6/4.8.png
 [image9]: {{site.baseurl}}/assets/images/blog/blog6/4.9.png
-
+[image10]: {{site.baseurl}}/assets/images/blog/blog6/barngrupp1.JPG
+[image11]: {{site.baseurl}}/assets/images/blog/blog6/barngrupp2.JPG
+[image12]: {{site.baseurl}}/assets/images/blog/blog6/barngrupp3.JPG
+[image13]: {{site.baseurl}}/assets/images/blog/blog6/barngrupp4.JPG
 
 
 
